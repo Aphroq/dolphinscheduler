@@ -61,6 +61,6 @@ dependencies:
   repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
   condition: mysql.enabled
 - name: minio
-  version: 11.10.13
-  repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+  version: 17.0.22
+  repository: https://charts.bitnami.com/bitnami
   condition: minio.enabled
