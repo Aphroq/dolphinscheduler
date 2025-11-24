@@ -255,8 +255,8 @@ Please refer to the [Quick Start in Kubernetes](../../../docs/docs/en/guide/inst
 | minio.defaultBuckets | string | `"dolphinscheduler"` | minio default buckets |
 | minio.enabled | bool | `true` | Deploy minio and configure it as the default storage for DolphinScheduler, note this is for demo only, not for production. |
 | minio.image.registry | string | `"docker.io"` |  |
-| minio.image.repository | string | `"bitnamilegacy/minio"` |  |
-| minio.image.tag | string | `"2022.10.29-debian-11-r0"` |  |
+| minio.image.repository | string | `"bitnami/minio"` |  |
+| minio.image.tag | string | `"2025.1.16-debian-12-r0"` |  |
 | minio.persistence.enabled | bool | `false` | Set minio.persistence.enabled to true to mount a new volume for internal minio |
 | mysql.auth.database | string | `"dolphinscheduler"` | mysql database |
 | mysql.auth.params | string | `"characterEncoding=utf8"` | mysql params |
